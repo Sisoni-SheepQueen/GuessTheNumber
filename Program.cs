@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         Random random = new Random();
-        int secretNumber = random.Next(1, 101); // число от 1 до 100
+        int secretNumber = random.Next(1, 101); 
         int guess = 0;
         int attempts = 0;
 
